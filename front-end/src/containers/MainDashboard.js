@@ -23,7 +23,7 @@ export default function MainDashboard() {
       paidby = await paidby.json();
       console.log({paidby});
       setUsers(paidby);
-      localStorage.setItem('all-users',JSON.Stringify(paidby));
+      localStorage.setItem('userDetails',JSON.Stringify(paidby));
       
       
     }

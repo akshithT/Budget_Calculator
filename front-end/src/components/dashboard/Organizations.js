@@ -59,7 +59,7 @@ const Organizations = ({ name, id, fun }) => {
      
     }
     fetchData();
-    var paidbyArr = JSON.parse(localStorage.getItem("all-users"));
+    var paidbyArr = JSON.parse(localStorage.getItem("userDetails"));
       console.log("user Info in Org.js" + paidbyArr);
       setUsers(paidbyArr);
       setSelectUsers(paidbyArr);
